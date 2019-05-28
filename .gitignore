@@ -1,0 +1,12 @@
+packages
+.vs
+/*.user
+*.user
+
+bin
+obj
+packages
+
+/package-lock.json
+*.pubxml
+node_modules
