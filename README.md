@@ -2,11 +2,14 @@ POPForums Sample
 ================
 
 This is a sample project showing how to light up POP Forums in an ASP.NET Core app by way of package references. For the backend, you need at a minimum these NuGet packages:
+
 https://www.nuget.org/packages/PopForums.Mvc/
-https://www.nuget.org/packages/PopForums.Sql/
+
+https://www.nuget.org/packages/PopForums.Sql/ 
 
 You'll also need this NPM package:
-https://www.npmjs.com/package/@popworldmedia/popforums
+
+https://www.npmjs.com/package/@popworldmedia/popforums 
 
 The included gulpfile.js copies the client files as necessary. You also need the `Views/Shared/_Layout.cshtml` layout. Check the main project for options for the `PopForums.json` file and the `Startup` class.
 
