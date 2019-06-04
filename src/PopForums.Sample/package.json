@@ -3,7 +3,7 @@
   "version": "15.0.0",
   "scripts": {},
 	"dependencies": {
-		"@popworldmedia/popforums": "15.0.2" 
+		"@popworldmedia/popforums": "15.0.3" 
 	},
   "devDependencies": {
     "gulp": "4.0.0",
