@@ -10,3 +10,5 @@ packages
 /package-lock.json
 *.pubxml
 node_modules
+
+src/PopForums.Sample/wwwroot/lib
