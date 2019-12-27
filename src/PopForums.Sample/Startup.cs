@@ -45,6 +45,9 @@ namespace PopForums.Sample
 				options.Filters.Add(typeof(PopForumsUserAttribute));
 			});
 
+			// It's unfortunately necessary to use the Json.NET serializer for API requests because System.Text.Json doesn't handler enums correctly
+			services.AddControllers().AddNewtonsoftJson();
+
 			// sets up the dependencies for the base, SQL and web libraries in POP Forums
 			services.AddPopForumsBase();
 			services.AddPopForumsSql();
