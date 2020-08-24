@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
-    <PackageReference Include="PopForums.Mvc" Version="16.0.0" />
-    <PackageReference Include="PopForums.Sql" Version="16.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.7" />
+    <PackageReference Include="PopForums.Mvc" Version="17.0.0" />
+    <PackageReference Include="PopForums.Sql" Version="17.0.0" />
   </ItemGroup>
 
   <ItemGroup>
