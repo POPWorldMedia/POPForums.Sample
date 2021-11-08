@@ -1,14 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.7" />
-    <PackageReference Include="PopForums.Mvc" Version="17.0.2" />
-    <PackageReference Include="PopForums.Sql" Version="17.0.0" />
+    <PackageReference Include="PopForums.Mvc" Version="18.0.0" />
+    <PackageReference Include="PopForums.Sql" Version="18.0.0" />
   </ItemGroup>
 
   <ItemGroup>

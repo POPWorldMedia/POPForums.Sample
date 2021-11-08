@@ -1,10 +1,10 @@
 {
   "name": "popforums.sample",
-  "version": "17.0.0",
+  "version": "18.0.0",
   "scripts": {},
-	"dependencies": {
-		"@popworldmedia/popforums": "17.0.0" 
-	},
+  "dependencies": {
+    "@popworldmedia/popforums": "18.0.0"
+  },
   "devDependencies": {
     "gulp": "4.0.2",
     "merge-stream": "2.0.0"
