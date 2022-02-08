@@ -1,9 +1,9 @@
 {
   "name": "popforums.sample",
-  "version": "18.0.0",
+  "version": "18.0.1",
   "scripts": {},
   "dependencies": {
-    "@popworldmedia/popforums": "18.0.0"
+    "@popworldmedia/popforums": "18.0.1"
   },
   "devDependencies": {
     "gulp": "4.0.2",
