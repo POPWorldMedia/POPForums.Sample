@@ -108,7 +108,7 @@ app.UseEndpoints(endpoints =>
 
 	// need this if you have lots of routing and/or areas
 	endpoints.MapAreaControllerRoute(
-		"forumroutes", "forums",
+		"forumroutes", "Forums",
 		"Forums/{controller=Home}/{action=Index}/{id?}");
 
 	// app routes
