@@ -65,6 +65,9 @@ services.AddSignalR();
 // but don't use if you're running these in functions
 services.AddPopForumsBackgroundServices();
 
+// use Azure table storage for logging instead of database
+//services.AddPopForumsTableStorageLogging();
+
 // send fewer bits
 services.AddResponseCompression(options =>
 {

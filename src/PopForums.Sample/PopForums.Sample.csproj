@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PopForums.Mvc" Version="18.0.99-CI-20220911-195127" />
-    <PackageReference Include="PopForums.Sql" Version="18.0.99-CI-20220911-195127" />
+    <PackageReference Include="PopForums.Mvc" Version="18.0.99-CI-20221001-192422" />
+    <PackageReference Include="PopForums.Sql" Version="18.0.99-CI-20221001-192422" />
   </ItemGroup>
 
   <ItemGroup>
