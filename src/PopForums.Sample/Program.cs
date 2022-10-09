@@ -65,6 +65,9 @@ services.AddSignalR();
 // but don't use if you're running these in functions
 services.AddPopForumsBackgroundServices();
 
+// use Azure table storage for logging instead of database
+//services.AddPopForumsTableStorageLogging();
+
 // send fewer bits
 services.AddResponseCompression(options =>
 {
@@ -108,7 +111,7 @@ app.UseEndpoints(endpoints =>
 
 	// need this if you have lots of routing and/or areas
 	endpoints.MapAreaControllerRoute(
-		"forumroutes", "forums",
+		"forumroutes", "Forums",
 		"Forums/{controller=Home}/{action=Index}/{id?}");
 
 	// app routes
