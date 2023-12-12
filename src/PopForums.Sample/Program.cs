@@ -103,24 +103,18 @@ app.UseDeveloperExceptionPage();
 
 // Add MVC to the request pipeline. The order of the next three lines matters:
 app.UseRouting();
+
 app.UseAuthorization();
-app.UseEndpoints(endpoints =>
-{
-	// POP Forums routes
-	endpoints.AddPopForumsEndpoints(app);
 
-	// need this if you have lots of routing and/or areas
-	endpoints.MapAreaControllerRoute(
-		"forumroutes", "Forums",
-		"Forums/{controller=Home}/{action=Index}/{id?}");
+// POP Forums routes
+app.AddPopForumsEndpoints();
 
-	// app routes
-	endpoints.MapControllerRoute(
-		"areaRoute",
-		"{area:exists}/{controller=Home}/{action=Index}/{id?}");
-	endpoints.MapControllerRoute(
-		"default",
-		"{controller=Home}/{action=Index}/{id?}");
-});
+// app routes
+app.MapControllerRoute(
+	"areaRoute",
+	"{area:exists}/{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute(
+	"default",
+	"{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

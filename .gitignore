@@ -12,3 +12,5 @@ packages
 node_modules
 
 src/PopForums.Sample/wwwroot/lib
+.DS_Store
+.idea
