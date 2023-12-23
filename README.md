@@ -16,7 +16,7 @@ https://popworldmedia.github.io/POPForums/
 The main project on Github:  
 https://github.com/POPWorldMedia/POPForums  
 
-CI build of master, running on .NET Core is demo'ing here:  
+CI build of main, running on .NET Core is demo'ing here:  
 https://popforumsdev.azurewebsites.net/Forums  
 
 [![Build status](https://popw.visualstudio.com/POP%20Forums/_apis/build/status/popforumsdev)](https://popw.visualstudio.com/POP%20Forums/_build/latest?definitionId=2)  
