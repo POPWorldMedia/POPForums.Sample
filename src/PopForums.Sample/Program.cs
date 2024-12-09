@@ -63,7 +63,7 @@ services.AddSignalR();
 
 // creates an instance of the background services for POP Forums... call this last in forum setup,
 // but don't use if you're running these in functions
-services.AddPopForumsBackgroundServices();
+services.AddPopForumsBackgroundJobs();
 
 // use Azure table storage for logging instead of database
 //services.AddPopForumsTableStorageLogging();
@@ -88,21 +88,21 @@ app.UseResponseCompression();
 var loggerFactory = app.Services.GetService<ILoggerFactory>();
 loggerFactory.AddPopForumsLogger(app);
 
+app.UseStaticFiles();
+
 // Enables languages
 app.UsePopForumsCultures();
 
-app.UseStaticFiles();
-
 // Not unique to POP Forums, but required. Call before UsePopForumsAuth().
 app.UseAuthentication();
-
-// Populate the POP Forums identity in every request.
-app.UsePopForumsAuth();
 
 app.UseDeveloperExceptionPage();
 
 // Add MVC to the request pipeline. The order of the next three lines matters:
 app.UseRouting();
+
+// Populate the POP Forums identity in every request.
+app.UsePopForumsAuth();
 
 app.UseAuthorization();
 
@@ -117,4 +117,4 @@ app.MapControllerRoute(
 	"default",
 	"{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+await app.RunAsync();
