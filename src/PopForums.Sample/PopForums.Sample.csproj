@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PopForums.Mvc" Version="21.0.1" />
-    <PackageReference Include="PopForums.Sql" Version="21.0.0" />
+    <PackageReference Include="PopForums.Mvc" Version="22.0.0" />
+    <PackageReference Include="PopForums.Sql" Version="22.0.0" />
   </ItemGroup>
 
   <ItemGroup>
