@@ -22,8 +22,8 @@ https://popforumsdev.azurewebsites.net/Forums
 [![Build status](https://popw.visualstudio.com/POP%20Forums/_apis/build/status/popforumsdev)](https://popw.visualstudio.com/POP%20Forums/_build/latest?definitionId=2)  
 
 Latest release:  
-https://github.com/POPWorldMedia/POPForums/releases/tag/v20.0.0  
+[https://github.com/POPWorldMedia/POPForums/releases/tag/v20.0.0](https://github.com/POPWorldMedia/POPForums/releases/tag/v22.1.0)  
 
 The latest CI build packages can be found with these feeds on MyGet:  
-https://www.myget.org/F/popforums/api/v3/index.json  
+[https://www.myget.org/F/popforums/api/v3/index.json](https://nuget.pkg.github.com/POPWorldMedia/index.json)  
 
