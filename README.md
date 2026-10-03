@@ -19,7 +19,7 @@ https://github.com/POPWorldMedia/POPForums
 CI build of main, running on .NET Core is demo'ing here:  
 https://popforumsdev.azurewebsites.net/Forums  
 
-[![Build status](https://popw.visualstudio.com/POP%20Forums/_apis/build/status/popforumsdev)](https://popw.visualstudio.com/POP%20Forums/_build/latest?definitionId=2)  
+[![Build Status](https://dev.azure.com/popw/POP%20Forums/_apis/build/status%2FPOPWorldMedia.POPForums?branchName=main)](https://dev.azure.com/popw/POP%20Forums/_build/latest?definitionId=19&branchName=main) 
 
 Latest release:  
 [https://github.com/POPWorldMedia/POPForums/releases/tag/v20.0.0](https://github.com/POPWorldMedia/POPForums/releases/tag/v22.1.0)  
