@@ -4,10 +4,12 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>@ViewBag.Title</title>
+        <!-- POP Forums inserts header bits here: -->
         @await RenderSectionAsync("HeaderContent", false)
     </head>
     <body>
         <div class="container">
+            <!-- POP Forums inserts the body of the forum here: -->
             @RenderBody()
         </div>
     </body>
