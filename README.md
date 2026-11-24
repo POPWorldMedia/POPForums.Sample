@@ -22,8 +22,8 @@ https://popforumsdev.azurewebsites.net/Forums
 [![Build Status](https://dev.azure.com/popw/POP%20Forums/_apis/build/status%2FPOPWorldMedia.POPForums?branchName=main)](https://dev.azure.com/popw/POP%20Forums/_build/latest?definitionId=19&branchName=main) 
 
 Latest release:  
-[https://github.com/POPWorldMedia/POPForums/releases/tag/v20.0.0](https://github.com/POPWorldMedia/POPForums/releases/tag/v22.1.0)  
+[https://github.com/POPWorldMedia/POPForums/releases/tag/v23.0.0](https://github.com/POPWorldMedia/POPForums/releases/tag/v23.0.0)  
 
-The latest CI build packages can be found with these feeds on MyGet:  
-[https://www.myget.org/F/popforums/api/v3/index.json](https://nuget.pkg.github.com/POPWorldMedia/index.json)  
+The latest CI build packages can be found with these feeds (requires GitHub auth):  
+https://nuget.pkg.github.com/POPWorldMedia/index.json
 

@@ -71,6 +71,7 @@ services.AddPopForumsBackgroundJobs();
 // send fewer bits
 services.AddResponseCompression(options =>
 {
+	options.Providers.Add<ZstandardCompressionProvider>();
     options.Providers.Add<BrotliCompressionProvider>();
     options.Providers.Add<GzipCompressionProvider>();
     options.EnableForHttps = true;
